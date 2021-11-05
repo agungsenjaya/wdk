@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header class="sticky-top">
+        <nav id="scroll" class="navbar navbar-light px-3 py-0 position-absolute w-100">
+            <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="" width="70">
+            </a>
+            <!-- <div class="d-sm-none d-block">
+
+              <a class="py-2 text-wd" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                <i class="bi bi-list h1"></i>
+              </a>
+              
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title title-3 text-wd" id="offcanvasExampleLabel">Menus</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="">
+                  <ul class="list-group list-group-flush nav-top">
+                    <li class="list-group-item">
+                      <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="list-group-item">
+                      <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="list-group-item">
+                      <a class="nav-link" href="#roadmaps">Roadmaps</a>
+                    </li>
+                    <li class="list-group-item">
+                      <a class="nav-link" href="#tokenomics">Tokenomics</a>
+                    </li>
+                    <li class="list-group-item">
+                      <a class="nav-link" href="#faq">Faq</a>
+                    </li>
+                    <li class="list-group-item">
+                      <a class="nav-link" href="#partner">Partner</a>
+                    </li>
+                    <li class="list-group-item mt-3">
+                      <a class="btn btn-warning w-100 rounded-pill py-1" href="">
+                        <span class="text-wd"><i class="lab la-cloudsmith me-1"></i>Community</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              
+              </div> -->
+            <div class="d-none d-sm-block">
+            <ul class="nav nav-pills nav-top">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#roadmaps">Roadmaps</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tokenomics">Tokenomics</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">Faq</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#partner">Partner</a>
+              </li>
+              <li class="nav-item align-self-center">
+                <a class="btn btn-warning rounded-pill py-1" href="">
+                  <span class="text-wd"><i class="lab la-cloudsmith me-1"></i>Community</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+          </nav>
+        </header>
+        <div class="fixed-bottom m-3" style="left:auto;">
+          <a href="" class="rounded-pill">
+            <!-- <i class="lab la-telegram h3 m-0"></i> -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="#46318b" class="bi bi-telegram" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+            </svg>
+          </a>
+        </div>
+          <div data-bs-spy="scroll" data-bs-target="#scroll" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <section class="space-xl grad-1" id="home">
+<br>
+<br>
+              <div class="container d-flex flex-column justify-content-between">
+                <div class="row align-items-center h-100">
+                  <div class="col-xl-5 col-md-6 order-md-1 order-2 me-xl-auto text-md-start text-center">
+                    <!-- <h1 class="display-5 mb-md-5 mb-3 pb-3 title-3">Get started rich with token WDKYC</h1> -->
+                    <h1 class="display-5 mb-md-5 mb-3 pb-3 title-3 text-wd">The moon is made of pancakes.</h1>
+                    <a href="#" class="btn btn-lg btn-warning mb-3 px-md-5 px-4">Pancakeswap</a>
+                    <a href="#" class="btn btn-lg btn-wd mb-3 px-md-5 px-4 ms-3">Pocooin</a>
+                  </div>
+                  <div class="col-md-6 col-sm-10 order-md-2 order-1 mx-md-0 mx-auto mb-md-0 mb-5">
+                    <!-- <img src="https://dummyimage.com/600x500" alt="WDKYC" class="" width="100%"> -->
+                    <img src="img/bg-home-2.png" alt="WDKYC" class="" width="100%">
+                  </div>
+                </div>
+              </div>
+
+                
+            </section>
+            <section class="space-xl" id="about">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="img/bg-home-2.png" alt="WDKYC" class="" width="100%">
+                    </div>
+                  <div class="col-md-6 align-self-center">
+                    <!-- <img src="img/logo.png" alt="" width="70"> -->
+                    <h2 class="title-3 text-wd my-3">About us WDKYC<br>
+                      Largest tokens</h2>
+                    <p>WDKYC or Wallet DKYC is DeFi who helps you to Invest on the Binance Smart Chain (BSC) while funding your everyday life with the dividends. 
+                      No identification required. 
+                      Ever.
+                      We want everyone will be able to unlock the guiltless freedom of everyday spending using their cryptocurrency reflections without interference, questioning, or resistance.
+                      We just hate KYC, that's it</p>
+                  </div>
+                  </div>
+                </div>
+            </section>
+            <section class="space-m" id="roadmaps">
+                <div class="container">
+                  <h2 class="title-3 text-wd my-3 text-center">Roadmaps</h2>
+                  <div class="row">
+                  <div class="col-md-10 offset-md-1">
+                  <div class="card-deck">
+                    <div class="card bg-wd border-0">
+                      <div class="card-body">
+                        <div class="">
+                          <div class="badge bg-warning text-wd mb-3">Roadmaps</div>
+                          <h4 class="card-title title-3 text-white">State One</h4>
+                        </div>
+                        <div class="card-text">
+                          <ul class="list-group list-group-flush list-road">
+                            <li class="list-group-item">
+                              <div class="media">
+                                <i class="bi bi-check text-warning me-2"></i>
+                                <div class="media-body">
+                                  open testing cakes
+                                </div>
+                              </div>
+                            </li>
+                            <li class="list-group-item">
+                              <div class="media">
+                                <i class="bi bi-check text-warning me-2"></i>
+                                <div class="media-body">
+                                  open testing cakes
+                                </div>
+                              </div>
+                            </li>
+                            <li class="list-group-item">
+                              <div class="media">
+                                <i class="bi bi-check text-warning me-2"></i>
+                                <div class="media-body">
+                                  open testing cakes
+                                </div>
+                              </div>
+                            </li>
+                            <li class="list-group-item">
+                              <div class="media">
+                                <i class="bi bi-check text-warning me-2"></i>
+                                <div class="media-body">
+                                  open testing cakes
+                                </div>
+                              </div>
+                            </li>
+                            <li class="list-group-item">
+                              <div class="media">
+                                <i class="bi bi-check text-warning me-2"></i>
+                                <div class="media-body">
+                                  open testing cakes
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card bg-wd border-0">
+                      <div class="card-body">
+                        <div class="">
+                          <div class="badge bg-warning text-wd mb-3">Roadmaps</div>
+                          <h4 class="card-title title-3 text-white">State Two</h4>
+                        </div>
+                        <div class="card-text">
+                          <ul class="list-group list-group-flush list-road">
+                            <li class="list-group-item">
+                              <div class="media">
+                                <i class="bi bi-check text-warning me-2"></i>
+                                <div class="media-body">
+                                  open testing cakes
+                                </div>
+                              </div>
+                            </li>
+                            <li class="list-group-item">
+                              <div class="media">
+                                <i class="bi bi-check text-warning me-2"></i>
+                                <div class="media-body">
+                                  open testing cakes
+                                </div>
+                              </div>
+                            </li>
+                            <li class="list-group-item">
+                              <div class="media">
+                                <i class="bi bi-check text-warning me-2"></i>
+                                <div class="media-body">
+                                  open testing cakes
+                                </div>
+                              </div>
+                            </li>
+                            <li class="list-group-item">
+                              <div class="media">
+                                <i class="bi bi-check text-warning me-2"></i>
+                                <div class="media-body">
+                                  open testing cakes
+                                </div>
+                              </div>
+                            </li>
+                            <li class="list-group-item">
+                              <div class="media">
+                                <i class="bi bi-x me-2 opacity-50"></i>
+                                <div class="media-body">
+                                  open testing cakes
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card bg-wd border-0">
+                      <div class="card-body">
+                        <div class="">
+                          <div class="badge bg-warning text-wd mb-3">Roadmaps</div>
+                          <h4 class="card-title title-3 text-white">State Three</h4>
+                        </div>
+                        <div class="card-text">
+                          <ul class="list-group list-group-flush list-road">
+                            <li class="list-group-item">
+                              <div class="media">
+                                <i class="bi bi-x me-2 opacity-50"></i>
+                                <div class="media-body">
+                                  open testing cakes
+                                </div>
+                              </div>
+                            </li>
+                            <li class="list-group-item">
+                              <div class="media">
+                                <i class="bi bi-x me-2 opacity-50"></i>
+                                <div class="media-body">
+                                  open testing cakes
+                                </div>
+                              </div>
+                            </li>
+                            <li class="list-group-item">
+                              <div class="media">
+                                <i class="bi bi-x me-2 opacity-50"></i>
+                                <div class="media-body">
+                                  open testing cakes
+                                </div>
+                              </div>
+                            </li>
+                            <li class="list-group-item">
+                              <div class="media">
+                                <i class="bi bi-x me-2 opacity-50"></i>
+                                <div class="media-body">
+                                  open testing cakes
+                                </div>
+                              </div>
+                            </li>
+                            <li class="list-group-item">
+                              <div class="media">
+                                <i class="bi bi-x me-2 opacity-50"></i>
+                                <div class="media-body">
+                                  open testing cakes
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  </div>
+                  </div>
+                    
+                </div>
+            </section>
+            <section class="space-m" id="tokenomics">
+              <div class="container">
+                <h2 class="title-3 text-wd my-4 text-center">Tokenomics</h2>
+                <div class="row flex-column-reverse flex-lg-row">
+                  <div class="col-md-6 align-self-center">
+                    <!-- <p>Supply alocation</p> -->
+
+                    <ul class="list-group list-group-flush line-2">
+                      <li class="list-group-item">
+                        <div class="media">
+                          <div class="btn-icon bg-warning me-3">
+                            <h4 class="title-3 text-wd text-center">1</h4>
+                          </div>
+                          <div class="media-body align-self-center">
+                            5% Marketing
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item">
+                        <div class="media">
+                          <div class="btn-icon bg-warning me-3">
+                            <h4 class="title-3 text-wd text-center">2</h4>
+                          </div>
+                          <div class="media-body align-self-center">
+                            15% Burn Token
+                          </div>
+                        </div>
+                      </li>
+                      <li class="list-group-item">
+                        <div class="media">
+                          <div class="btn-icon bg-warning me-3">
+                            <h4 class="title-3 text-wd text-center">3</h4>
+                          </div>
+                          <div class="media-body align-self-center">
+                            80% Pancake
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+
+                    <!-- <ul class="chart-data-s2 row" data-canvas="token-distribution" data-canvas-type="pie" data-border-color="#0f1932">
+                      <li class="col-sm-8" data-color="#1f2e4d" data-color-hover="#f42f54" data-label="Distribute" data-title="ADA Reflections" data-subtitle="(Distribute to Holders)" data-amount="9"><div class="chart-data-item"><span class="chart-label">ADA Reflections</span><span class="chart-info"><span class="chart-percent">9% </span><span class="chart-sublabel">(Distribute to Holders)</span></span></div></li>
+                      <li class="col-sm-8" data-color="#1f2e4d" data-color-hover="#f42f54" data-label="Marketing" data-title="Marketing" data-subtitle="(Marketing Plan)" data-amount="3"><div class="chart-data-item"><span class="chart-label">Marketing</span><span class="chart-info"><span class="chart-percent">3% </span><span class="chart-sublabel">(Marketing Plan)</span></span></div></li>
+                      <li class="col-sm-8" data-color="#1f2e4d" data-color-hover="#f42f54" data-label="Development" data-title="Development" data-subtitle="(Operational)" data-amount="3"><div class="chart-data-item"><span class="chart-label">Development</span><span class="chart-info"><span class="chart-percent">3% </span><span class="chart-sublabel">(Operational)</span></span></div></li>
+                      <li class="col-sm-8 active" data-color="#1f2e4d" data-color-hover="#f42f54" data-label="Target Total Burn" data-title="Target Total Burn" data-subtitle="(Burn)" data-amount="30"><div class="chart-data-item"><span class="chart-label">Target Total Burn</span><span class="chart-info"><span class="chart-percent">30% </span><span class="chart-sublabel">(Burn)</span></span></div></li>
+                  </ul> -->
+
+                  </div>
+                  <div class="col-md-6 mb-sm-0 mb-3">
+                    <img src="https://dummyimage.com/600x400" alt="" width="100%">
+                  </div>
+                </div>
+<br>
+<br>
+                <div class="card-deck">
+
+                  <div class="card shadow">
+                    <div class="card-body">
+                      <h5 class="card-title title-3 text-wd">Reward</h5>
+                      <p class="card-text">
+                        6,5% automatically distributed to all holders.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card shadow">
+                    <div class="card-body">
+                      <h5 class="card-title title-3 text-wd">Marketing</h5>
+                      <p class="card-text">
+                        5% allocated into Marketing Wallet.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card shadow">
+                    <div class="card-body">
+                      <h5 class="card-title title-3 text-wd">Dev Wallet</h5>
+                      <p class="card-text">
+                        2,5% allocated into Development Wallet.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card shadow">
+                    <div class="card-body">
+                      <h5 class="card-title title-3 text-wd">Auto Burn</h5>
+                      <p class="card-text">
+                        2% automatically distributed to Burn wallet.
+                      </p>
+                    </div>
+                  </div>
+                  
+                </div>
+
+              </div>
+          </section>
+            <section class="space-m" id="faq">
+              <div class="container">
+              <div class="row">
+              <div class="col-md-10 offset-md-1">
+                <h2 class="title-3 text-wd my-3 text-center">FAQ<span class="text-warning">S</span> </h2>
+
+                <div class="accordion acc-faq text-white accordion-flush" id="accordionFaq">
+                  <div class="accordion-item mb-4">
+                    <h2 class="accordion-header" id="headingOne">
+                  <button style="font-weight: 300;" class="accordion-button btn-wd rounded collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        What is WDKYC?
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionFaq">
+                      <div class="accordion-body text-dark">
+                        WDKYC or Wallet DKYC is DeFi who helps you to Invest on the Binance Smart Chain (BSC) while funding your everyday life with the dividends.
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="accordion-item mb-4">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button style="font-weight: 300;" class="accordion-button btn-wd rounded collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Is WDKYC safe?
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFaq">
+                      <div class="accordion-body text-dark">
+                        We locked WDKYC liquidity in DXsale so you don't have to worry about Rugpull or ETC. 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item mb-4">
+                    <h2 class="accordion-header" id="headingFour">
+                      <button style="font-weight: 300;" class="accordion-button btn-wd rounded collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Is KYC required?
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionFaq">
+                      <div class="accordion-body text-dark">
+                        No identification required, because We want everyone will be able to unlock the guiltless freedom of everyday spending using their cryptocurrency reflections without interference, questioning, or resistance.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item mb-4">
+                    <h2 class="accordion-header" id="headingFive">
+                      <button style="font-weight: 300;" class="accordion-button btn-wd rounded collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        What is the WDKYC project in the future?
+                      </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionFaq">
+                      <div class="accordion-body text-dark">
+                        We will release our app on Android and Ios platform.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item mb-4">
+                    <h2 class="accordion-header" id="headingSix">
+                      <button style="font-weight: 300;" class="accordion-button btn-wd rounded collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        Where i can buy WDKYC?
+                      </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionFaq">
+                      <div class="accordion-body text-dark">
+                        You can get WDKYC token on Pancake Swap or ETC.
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              </div>
+              </div>
+            </section>
+            <section class="space-m" id="partner">
+              <div class="container">
+              <div class="row">
+              <div class="col-md">
+                <!-- <h2 class="title-3 text-wd my-3 text-center">Partnership</h2> -->
+                <div class="text-center mb-5">
+                  <div class="btn btn-warning text-wd">
+                    <div class="h2 mb-0">
+                      Partnership
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md">
+                    <img src="img/1.png" alt="" width="100%">
+                  </div>
+                  <div class="col-md border-start">
+                    <img src="img/2.png" alt="" width="100%">
+                  </div>
+                  <div class="col-md border-start">
+                    <img src="img/3.png" alt="" width="100%">
+                  </div>
+                  <div class="col-md border-start">
+                    <img src="img/4.png" alt="" width="100%">
+                  </div>
+                </div>
+                </div>
+                </div>
+              </div>
+              <br>
+              <br>
+            </section>
+          </div>
+
+          <footer class="bg-wd py-3 title-3">
+            <div class="container small">
+            <div class="row flex-column-reverse flex-lg-row">
+              <div class="col-md align-self-center">
+                © Copyright 2021 WDKYC Token. All rights reserved
+              </div>
+              <div class="col-md text-center d-none d-sm-block">
+                <img src="img/logo.png" alt="" width="70">
+              </div>
+              <div class="col-md align-self-center">
+                <ul class="nav float-end nav-social">
+                  <li class="nav-item align-self-center me-3">
+                    Join Community
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <i class="bi bi-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      <i class="bi bi-telegram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- <div><img src="img/logo.png" alt="" width="70"></div> -->
+              <!-- <div></div> -->
+            </div>
+            </div>
+          </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
+        <script>
+            var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+                target: '#scroll'
+            });
+            $(window).scroll(function() {
+                var nav = $('#scroll');
+                var top = 100;
+                if ($(window).scrollTop() >= top) {
+
+                    nav.addClass('bg-nav');
+
+                } else {
+                    nav.removeClass('bg-nav');
+                }
+            });
+        </script>
+    </body>
+</html>
