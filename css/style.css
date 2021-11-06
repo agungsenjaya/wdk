@@ -92,3 +92,10 @@ body {
 .line-2 {
     line-height: 3;
 }
+
+/* .video_container img.poster {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 10;
+  } */
